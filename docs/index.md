@@ -11,9 +11,6 @@ hero:
     - theme: brand
       text: 我的B站主页
       link: https://space.bilibili.com/3546949391223286
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
   - title: Feature A
