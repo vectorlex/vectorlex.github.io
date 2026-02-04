@@ -9,8 +9,8 @@ hero:
     alt: ""
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 我的B站主页
+      link: https://space.bilibili.com/3546949391223286
     - theme: alt
       text: API Examples
       link: /api-examples
