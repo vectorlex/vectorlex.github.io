@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "vectorlex.github.io"
-  text: "vectorlex的个人网站"
-  tagline: My great project tagline
+  name: "vectorlex的个人网站"
+#   text: "vectorlex.github.io"
+  tagline: vectorlex.github.io
   actions:
     - theme: brand
       text: Markdown Examples
