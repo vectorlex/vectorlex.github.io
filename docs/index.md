@@ -7,6 +7,7 @@ hero:
   tagline: "vectorlex.github.io"
   image:
     src: /images/circle.png
+    alt: 114514
   actions:
     - theme: brand
       text: Markdown Examples
