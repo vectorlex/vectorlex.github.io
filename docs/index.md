@@ -6,7 +6,7 @@ hero:
   name: "vectorlex的个人网站"
   tagline: "vectorlex.github.io"
   image:
-    src: ../images/circle.png
+    src: ./images/circle.png
   actions:
     - theme: brand
       text: Markdown Examples
@@ -19,4 +19,3 @@ features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
