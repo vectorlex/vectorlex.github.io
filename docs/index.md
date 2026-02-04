@@ -4,8 +4,9 @@ layout: home
 
 hero:
   name: "vectorlex的个人网站"
-#   text: "vectorlex.github.io"
-  tagline: vectorlex.github.io
+  tagline: "vectorlex.github.io"
+  image:
+    src: /images/circle.png
   actions:
     - theme: brand
       text: Markdown Examples
@@ -16,10 +17,6 @@ hero:
 
 features:
   - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
