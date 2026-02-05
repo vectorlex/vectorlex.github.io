@@ -14,5 +14,5 @@ hero:
 
 features:
   - title: Homo
-    link: /homo
+    link: https://vectorlex.github.io/homo/
 ---
