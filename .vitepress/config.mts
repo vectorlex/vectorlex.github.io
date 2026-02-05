@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   cleanUrls: true,
-  base: '/docs/',
   srcDir: "docs",
   title: "vectorlex.github.io",
   description: "vectorlex的个人网站",
