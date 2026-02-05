@@ -124,9 +124,9 @@
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
   --vp-font-family-base: "Noto Sans CJK SC";
-  --vp-font-family-mono: 'JetBrains Mono';
+  --vp-font-family-mono: "JetBrains Mono";
 }
 
 .VPDoc {
-  font-family: 'Noto Serif CJK SC';
+  font-family: "Noto Serif CJK SC";
 }

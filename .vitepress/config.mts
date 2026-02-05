@@ -1,35 +1,36 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   cleanUrls: true,
+  lang: "zh-CN",
   srcDir: "docs",
   title: "vectorlex.github.io",
   description: "vectorlex的意义不明的个人网站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: "Home", link: "/" },
     ],
 
     sidebar: [
       {
-        text: '文章',
+        text: "文章",
         items: [
-          { text: '测试', link: '/articles/test' }
+          { text: "测试", link: "/articles/test" }
         ]
       },
       {
-        text: '神秘小项目',
+        text: "神秘小项目",
         items: [
-          { text: '恶臭数字论证器', link: 'https://vectorlex.github.io/homo/' }
+          { text: "恶臭数字论证器", link: "https://vectorlex.github.io/homo/" }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vectorlex/' },
-      { icon: 'bilibili', link: 'https://space.bilibili.com/3546949391223286' }
+      { icon: "github", link: "https://github.com/vectorlex/" },
+      { icon: "bilibili", link: "https://space.bilibili.com/3546949391223286" }
     ]
   }
 })
