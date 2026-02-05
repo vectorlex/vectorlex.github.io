@@ -54,7 +54,7 @@ export default defineConfig({
 
     footer: {
       message: `Copyright © 114514 BC - ${new Date().getFullYear()} vectorlex \<vectorlex@outlook.com\>`,
-      copyright: "本作品为自由作品。你可以依据由 Sam Hocevar 发布的《Do What The Fuck You Want To Public License》的第二版之条款对该作品进行再发布或修改。更多细节详见<a href=\"https://www.wtfpl.net/\">WTFPL官方网站</a>。"
+      copyright: "本作品为自由作品。你可以依据由 Sam Hocevar 发布的《Do What The Fuck You Want To Public License》的第二版之条款对该作品进行再发布或修改。更多细节详见 <a href=\"https://www.wtfpl.net/\">WTFPL官方网站</a> 。"
     }
   }
 })
