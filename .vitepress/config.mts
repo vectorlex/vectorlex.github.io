@@ -17,6 +17,7 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
+          { text: '测试', link: '/test' }
         ]
       }
     ],
