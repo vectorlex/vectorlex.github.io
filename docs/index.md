@@ -14,5 +14,5 @@ hero:
 
 features:
   - title: 恶臭数字论证器
-    link: /homo
+    link: /homo/
 ---
