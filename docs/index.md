@@ -13,6 +13,6 @@ hero:
       link: https://space.bilibili.com/3546949391223286
 
 features:
-  - title: Homo
+  - title: 恶臭数字论证器
     link: https://vectorlex.github.io/homo/
 ---
