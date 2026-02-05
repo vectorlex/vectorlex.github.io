@@ -16,5 +16,5 @@ features:
   - title: 恶臭数字论证器
     link: https://vectorlex.github.io/homo/
   - title: 测试
-    link: /test
+    link: /articles/test
 ---

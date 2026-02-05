@@ -5,7 +5,7 @@ export default defineConfig({
   cleanUrls: true,
   srcDir: "docs",
   title: "vectorlex.github.io",
-  description: "vectorlex的个人网站",
+  description: "vectorlex的意义不明的个人网站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -14,9 +14,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '测试',
+        text: '文章',
         items: [
-          { text: '测试', link: '/test' }
+          { text: '测试', link: '/articles/test' }
         ]
       },
       {
