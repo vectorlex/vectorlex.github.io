@@ -50,8 +50,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "Released under the WTFPL License.",
-      copyright: `Copyright © BC114514-${new Date().getFullYear()}`,
+      copyright: `Copyright © BC114514-${new Date().getFullYear()} vectorlex <vectorlex@outlook.com>\nThis work is free. You can redistribute it and/or modify it under the\nterms of the Do What The Fuck You Want To Public License, Version 2,\nas published by Sam Hocevar. See the COPYING file for more details.`,
     }
   }
 })
