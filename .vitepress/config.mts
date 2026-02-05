@@ -71,7 +71,7 @@ export default defineConfig({
 
     footer: {
       message: `Copyright © 114514 BC - ${new Date().getFullYear()} vectorlex <vectorlex@outlook.com>`,
-      copyright: "This work is free. You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2, as published by Sam Hocevar. See the COPYING file for more details."
+      copyright: "This work is free. You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2, as published by Sam Hocevar. See the LICENSE file for more details."
     },
     editLink: {
       pattern: "https://github.com/vectorlex/vectorlex.github.io/docs/:path", // 改成自己的仓库
