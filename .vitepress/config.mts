@@ -7,9 +7,7 @@ export default defineConfig({
   srcDir: "src",
   title: "vectorlex.github.io",
   description: "vectorlex的意义不明的个人网站",
-  sitemap: {
-    hostname: "https://vectorlex.github.io/",
-  },
+  sitemap: { hostname: "https://vectorlex.github.io/" },
   themeConfig: {
     search: {
       provider: "local"
