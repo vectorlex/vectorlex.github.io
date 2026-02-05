@@ -14,7 +14,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '测试',
         items: [
           { text: '测试', link: '/test' }
         ]
