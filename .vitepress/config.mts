@@ -4,13 +4,31 @@ import { defineConfig } from "vitepress"
 export default defineConfig({
   cleanUrls: true,
   lang: "zh-CN",
-  srcDir: "docs",
+  srcDir: "src",
   title: "vectorlex.github.io",
   description: "vectorlex的意义不明的个人网站",
+  sitemap: {
+    hostname: "https://vectorlex.github.io/",
+  },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: "local"
+    },
+
     nav: [
-      { text: "Home", link: "/" },
+      { text: "首页", link: "/" },
+      {
+        text: "文章",
+        items: [
+          { text: "测试", link: "/articles/test" }
+        ]
+      },
+      {
+        text: "神秘小项目",
+        items: [
+          { text: "恶臭数字论证器", link: "https://vectorlex.github.io/homo/" }
+        ]
+      }
     ],
 
     sidebar: [
@@ -31,6 +49,11 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vectorlex/" },
       { icon: "bilibili", link: "https://space.bilibili.com/3546949391223286" }
-    ]
+    ],
+
+    footer: {
+      message: "Released under the WTFPL License.",
+      copyright: `Copyright © BC114514-${new Date().getFullYear()}`,
+    }
   }
 })
