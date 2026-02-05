@@ -52,9 +52,22 @@ export default defineConfig({
       text: "在 GitHub 上查看源代码"
     },
 
+    lastUpdated: {
+      text: "最后更新于",
+      formatOptions: {
+        dateStyle: "full", // 可选值full、long、medium、short
+        timeStyle: "full" // 可选值full、long、medium、short
+      },
+    },
+
     footer: {
       message: `Copyright © 114514 BC - ${new Date().getFullYear()} vectorlex \<vectorlex@outlook.com\>`,
       copyright: "本作品为自由作品。你可以依据由 Sam Hocevar 发布的《Do What The Fuck You Want To Public License》的第二版之条款对该作品进行再发布或修改。更多细节详见 <a href=\"https://www.wtfpl.net/\">WTFPL官方网站</a> 。"
-    }
+    },
+
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
   }
 })
