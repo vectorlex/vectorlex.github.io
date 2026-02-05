@@ -13,6 +13,6 @@ hero:
       link: https://space.bilibili.com/3546949391223286
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Homo
+    link: /homo
 ---
