@@ -49,7 +49,7 @@ export default defineConfig({
 
     editLink: {
       pattern: "https://github.com/vectorlex/vectorlex.github.io/tree/main/src/:path", // 改成自己的仓库
-      text: "GitHub"
+      text: "在 GitHub 上查看"
     },
 
     footer: {
