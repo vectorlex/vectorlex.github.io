@@ -18,6 +18,12 @@ export default defineConfig({
         items: [
           { text: '测试', link: '/test' }
         ]
+      },
+      {
+        text: '神秘小项目',
+        items: [
+          { text: '恶臭数字论证器', link: 'https://vectorlex.github.io/homo/' }
+        ]
       }
     ],
 
